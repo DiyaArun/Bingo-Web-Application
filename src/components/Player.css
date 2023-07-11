@@ -1,0 +1,41 @@
+/* Player.css */
+
+.player {
+  border: 2px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.ticket-row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.ticket-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  margin-right: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ticket-cell:last-child {
+  margin-right: 0;
+}
+
+.ticket-cell:hover {
+  background-color: lightgray;
+}
+
+.ticket-cell.red {
+  background-color: red;
+  color: #fff;
+}
+
+.ticket {
+  margin-bottom: 30px; /* Add 30px margin at the bottom of each ticket */
+}

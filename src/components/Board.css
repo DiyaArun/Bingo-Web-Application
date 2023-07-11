@@ -1,0 +1,43 @@
+/* Board.css */
+
+.housie-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .number-generator {
+    margin-bottom: 20px;
+  }
+  
+  .number-generator button {
+    margin-right: 10px;
+  }
+  
+  .housie-board-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+    width: 500px;
+  }
+  
+  .housie-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+  }
+  
+  .housie-cell.called {
+    background-color: #ff0000;
+  }
+  
+  .housie-cell-number {
+    font-size: 14px;
+    font-weight: bold;
+  }
+ 
