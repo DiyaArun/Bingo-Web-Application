@@ -1,3 +1,3 @@
-Bingo (Jul. 2023, Personal Project):  \\
-– Created a webpage to play Bingo using React. \\
-– Implemented player registration, ticket generation, game master features such as control of the number board.
+Bingo (Jul. 2023, Personal Project): <br> 
+– Created a webpage to play Bingo using React. <br>
+– Implemented player registration, ticket generation, game master features such as control of the number board. <br>
